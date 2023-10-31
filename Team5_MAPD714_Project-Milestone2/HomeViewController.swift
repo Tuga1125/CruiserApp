@@ -13,7 +13,17 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    
+    @IBOutlet weak var buttonCruise: UIButton!
+    
+    
+    @IBAction func cruiseLister(_ sender: Any) {
+        
+        let controller = storyboard?.instantiateViewController(withIdentifier: "controller") as! SearchViewController
+        
+        present(controller, animated:true)
+    }
+    
 }
 

@@ -15,15 +15,14 @@ class SearchViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBOutlet weak var cruiseDetailLoader: UIButton!
+    
+    
+    @IBAction func cruiseInfo(_ sender: Any) {
+        
+        let controller = storyboard?.instantiateViewController(withIdentifier: "cruiseDetail") as! CruiseDetailViewController
+        
+        present(controller, animated:true)
     }
-    */
-
 }
