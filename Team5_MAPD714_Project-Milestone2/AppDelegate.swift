@@ -3,7 +3,10 @@
 //  Team5_MAPD714_Project-Milestone2
 //
 //  Created by Tooga Garanja Magar on 2023-10-29.
-//
+//  Team Number 5
+//  Milestone 2
+//  Team Member Name: Aasish Mahato (301373719), Abhishek Rijal(301370583), Tooga Garanja Magar(301369368)
+//  Submission date: 30th Oct, 2023
 
 import UIKit
 
